@@ -1,0 +1,45 @@
+-Clone -> faz download do código de um repositório 
+“Git clone <https….>
+
+
+-Branch -> cria uma branch nova
+
+“git branch <branch-name>”
+
+
+-Checkout -> garante que tudo foi feito de maneira certa e permite a troca de branches
+
+“Git checkout -b <branch-name>”
+
+
+-Add -> adiciona arquivos para serem cometidos
+
+“Git add -a” - adiciona tudo
+
+“Git add <file> -adiciona um único arquivo
+
+
+-Commit -> comete todos os arquivos para o repositorio
+
+“Git commit -m ‘commit message’”
+
+
+-Push -> envia mudanças ao servidor
+
+“Git push -u origin <branch-name>” - cria repositório
+“Git push” - envia mudanças
+
+
+-Pull -> traz updates feitos a uma branch
+
+“Git pull <remote>”
+
+
+-Merge -> junta duas branches
+
+“Git merge <branch-name>”
+
+
+-Init -> começa o projeto git
+
+“Git init”
